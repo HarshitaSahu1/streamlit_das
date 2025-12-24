@@ -151,7 +151,7 @@ def show_dashboard():
 
         with col4:
             st.subheader("Yearly_trend Transactions counts")
-            trans['date'] = pd.to_datetime(trans['date'],format = '%Y-%m-%d')
+            trans['date'] = pd.to_datetime(trans['date']).dt.date
             trans['Year'] = trans['date'].dt.year
             yearly_trans = trans.groupby('Year')['trans_id'].count()
 
@@ -727,6 +727,7 @@ if st.session_state.logged_in:
     
         
         
+
 
 
 
