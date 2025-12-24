@@ -57,6 +57,7 @@ def show_dashboard():
         ## KPIS for transaction data
         st.subheader("Key Performance Indicators (KPIs)")
         ## kpis calculation
+        trans['date'] = pd.to_datetime(trans['date'],format = 'mixed')
 
         trans['year'] = pd.to_datetime(trans['date']).dt.year
 
@@ -687,6 +688,7 @@ if st.session_state.logged_in:
     
         
         
+
 
 
 
