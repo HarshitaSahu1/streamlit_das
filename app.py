@@ -39,7 +39,7 @@ def show_dashboard():
     card = pd.read_csv("card_clean.csv")
     client = pd.read_csv("client_clean.csv")
     disp = pd.read_csv("disp_clean.csv")
-    trans = pd.read_csv("trans_github_2.csv")
+    trans = pd.read_csv("trans_github_2.csv",sep = ',')
     loan = pd.read_csv("loan_clean.csv")
     orders = pd.read_csv("Orders_clean.csv")
     district = pd.read_csv("district_clean.csv")
@@ -743,6 +743,7 @@ if st.session_state.logged_in:
     
         
         
+
 
 
 
