@@ -85,3 +85,13 @@ Demonstrated scalable, real-world banking analytics architecture and reporting.
 
 SQL | Data Modeling | Star/Galaxy Schema | Power BI | Python | Streamlit | Business Analytics | Financial Data Analysis | Data Visualization | Storytelling
 
+Dashboards :
+### Loan_Analysis
+![Loan_Analysis](Loan_Analysis.png)
+
+### Customer_Analysis
+![Customer_Analysis](Customer_Analysis.png)
+
+### Transaction_Analysis
+![Transaction_Analysis](Transaction_Analysis.png)
+
