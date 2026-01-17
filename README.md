@@ -71,7 +71,7 @@ Regional and demographic insights
 
 [Power BI Dashboard](power_bi_dashbord_link.txt)
 
-[Streamlit App] (Paste Link Here)
+[Streamlit App](streamlit_app_link.txt)
 
 🚀 Business Impact
 
